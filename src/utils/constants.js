@@ -26,3 +26,9 @@ export const POPULAR_MOVIES_URL =
 
 export const TOP_RATED_MOVIES_URL =
   "https://api.themoviedb.org/3/movie/top_rated?page=1";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", language: "English" },
+  { identifier: "hindi", language: "Hindi" },
+  { identifier: "spanish", language: "Spanish" },
+];
