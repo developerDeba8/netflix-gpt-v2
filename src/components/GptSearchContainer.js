@@ -5,7 +5,7 @@ import GPTMovieSuggestions from "./GPTMovieSuggestions";
 const GptSearchContainer = () => {
   return (
     <div>
-      <div className="absolute">
+      <div className="absolute -z-20">
         <img src={BG_IMAGE_URL} alt="netflix_background" />
       </div>
       <GPTSearchBar />

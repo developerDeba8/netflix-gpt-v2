@@ -1,6 +1,6 @@
 const GPTSearchBar = () => {
   return (
-    <div className="pt-[10%] z-20 relative">
+    <div className="pt-[10%]">
       <form className="grid grid-cols-12 bg-black p-1 w-1/2 mx-auto">
         <input
           type="text"
